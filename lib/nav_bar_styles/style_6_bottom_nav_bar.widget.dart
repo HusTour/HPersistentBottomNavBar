@@ -33,7 +33,7 @@ class _BottomNavStyle6State extends State<BottomNavStyle6>
               widget.navBarEssentials!.itemAnimationProperties?.duration ??
                   const Duration(milliseconds: 400),
           vsync: this));
-      _animationList.add(Tween(begin: 0.95, end: 1.18)
+      _animationList.add(Tween(begin: 1.0, end: 1.0)
           .chain(CurveTween(
               curve: widget.navBarEssentials!.itemAnimationProperties?.curve ??
                   Curves.ease))
